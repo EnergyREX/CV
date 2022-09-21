@@ -1,0 +1,39 @@
+
+body {
+    margin: 0px;
+    background-color: #282929;
+    color: #E4F2FA;
+}
+
+hr {
+    background-color: #2F184F;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0px;
+}
+
+/* Menú (Aplica para toda la web) */
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #282929;
+  }
+li.menu {
+    float: left;
+  }
+li.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li.menu a:hover {
+    background-color: #030201;
+  }
