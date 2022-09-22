@@ -1,13 +1,13 @@
 
 /*Se importa la fuente de texto que aplicará para toda la página web. */
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 body {
     font-family: 'Oswald', sans-serif ;
-    margin: 0px;
+    margin-left: 5em;
     background-color: #282929;
     color: #E4F2FA;
 }
-
 hr {
     background-color: #2F184F;
     display: block;
@@ -19,24 +19,63 @@ hr {
     border-width: 0px;
 }
 
-/* Menú (Aplica para toda la web) Pendiente de modificación */
+/* Otras cosas sobre mí */
+
+/*RRSS Links */
+
+a.youtube {
+  position: absolute;
+  right: 100px;
+  top: 20;
+}
+a.twitch {
+  position: absolute;
+  right: 155px;
+  top: 18px;
+}
+a.github {
+  position: absolute;
+  right: 45px;
+  top: 20px;
+}
+/* Instagram
+a.instagram {
+  position: absolute;
+  right: 90px;
+  top: 20px;
+}*/
+a.twitter {
+  position: absolute;
+  right: 210px;
+  top: 20px;
+}
+
+/* Menú (Aplica para toda la web) Pendiente de modificación. */
+
 ul.menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #282929;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #282929;
+}
 li.menu {
-    float: left;
-  }
+  float: left;
+}
 li.menu a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 li.menu a:hover {
-    background-color: #030201;
-  }
+  background-color: #030201;
+}
+
+/* Página de proyectos */
+
+.h3.proyecto-astrix {
+  padding-right: 5%;
+  padding-right: 10%;
+}
