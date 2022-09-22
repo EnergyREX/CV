@@ -1,5 +1,8 @@
 
+/*Se importa la fuente de texto que aplicará para toda la página web. */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 body {
+    font-family: 'Oswald', sans-serif ;
     margin: 0px;
     background-color: #282929;
     color: #E4F2FA;
@@ -16,7 +19,7 @@ hr {
     border-width: 0px;
 }
 
-/* Menú (Aplica para toda la web) */
+/* Menú (Aplica para toda la web) Pendiente de modificación */
 ul.menu {
     list-style-type: none;
     margin: 0;
