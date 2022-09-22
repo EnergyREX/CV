@@ -1,0 +1,63 @@
+/* Animaciones del menú por LittleSnippets.net. https://codepen.io/littlesnippets/pen/MadWbG */
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+.menu {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.menu * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: #0f0f0f;
+
+}
+.menu li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1.5em;
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.menu a {
+  padding: 0.3em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+.menu a:before,
+.menu a:after {
+  height: 2px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: #831919;
+  width: 0;
+}
+.menu a:before {
+  top: 0;
+  left: 0;
+}
+.menu a:after {
+  bottom: 0;
+  right: 0;
+}
+.menu a:hover,
+.menu .current a {
+  color: #ffffff;
+}
+.menu a:hover:before,
+.menu .current a:before,
+.menu a:hover:after,
+.menu .current a:after {
+  width: 100%;
+}
