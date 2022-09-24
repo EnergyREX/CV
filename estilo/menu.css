@@ -1,10 +1,10 @@
 /* Animaciones del menú por LittleSnippets.net. https://codepen.io/littlesnippets/pen/MadWbG */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
 
 .menu {
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: 'Rajdhani', Arial, sans-serif;
   text-align: left;
   text-transform: uppercase;
   font-weight: 500;

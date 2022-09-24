@@ -1,12 +1,12 @@
 
 /*Se importa la fuente de texto que aplicará para toda la página web. */
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 
 body {
-    font-family: 'Oswald', sans-serif ;
-    margin-left: 0;
-    margin-top: 0;
+    font-family: 'Oswald', sans-serif ;;
+    margin: 0;
     background-color: #282929;
     color: #E4F2FA;
 }
@@ -32,8 +32,6 @@ hr {
   padding-left: 20px;
   padding-top: 10px;
 }
-
-
 
 /*RRSS Links */
 
@@ -63,32 +61,6 @@ a.twitter {
   right: 220px;
   top: 20px;
 }
-
-/* Menú (Aplica para toda la web) Pendiente de modificación. */
-/*
-ul.menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #282929;
-}
-li.menu {
-  float: left;
-}
-li.menu a {
-  font-family: 'Rajdhani', sans-serif;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li.menu a:hover {
-  background-color: #030201;
-}
-
-/* Página de proyectos */
 
 .h3.proyecto-astrix {
   padding-right: 5%;
